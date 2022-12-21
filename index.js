@@ -21,12 +21,12 @@ await  Page.goto(Server);
 ,60000)}
 console.log(previousServer);
 */
-setInterval(async ()=>{
+/*setInterval(async ()=>{
  try{
  // await Axios.get(previousServer, {headers: { "Accept-Encoding": "gzip,deflate,compress" } });
  await Axios.get(serviceURL,{headers: { "Accept-Encoding": "gzip,deflate,compress" } })
  }catch(e){console.log(e.message)}
- },(5*60000))
+ },(5*60000))*/
 /*********************************/
 }
 main();
